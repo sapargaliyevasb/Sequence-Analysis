@@ -1,0 +1,28 @@
+<html class="no-js" lang="en">
+<head>
+    <title>Code-on Seq Task</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <div class="inputs">
+        <h3>Enter genetic sequence: </h3>
+        <input type="text" id="gen_seq" value title="Gene Sequence" placeholder="Gene Sequence" class="input-text required-entry">
+        </input>
+        <h3>Enter amino acid sequence: </h3>
+        <input type="text" id="amino_seq" value title="Amino Acid Sequence" placeholder="Amino Acid Sequence" class="input-text required-entry">
+        </input>
+        <h3> Choose the standard: </h3>
+        <select id="standard" name="standard" title="Standard">
+            <option value selected = "selected">Standard</option>
+            <option value="RFC-10">RFC-10</option>
+            <option value="Type IIS RFC-1000">Type IIS RFC-1000</option>
+        </select>
+        <h3> </h3>
+        <button class="button" id="Submit" title="Submit" type="submit">Submit</button>
+    </div>
+
+    <script type="text/javascript" src="gen.js"></script>
+
+</body>
+</html>
